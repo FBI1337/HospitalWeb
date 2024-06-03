@@ -1,0 +1,235 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.writing {
+    background-color: cadetblue;
+    padding: 32px 48px;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    width: 30px;
+    height: 30px;
+
+    padding: 4px;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    background-color: white;
+}
+
+.inputs {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.inputs > input {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.firstInputs {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.firstInputs > input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    /* border: none; */
+    outline: none;
+}
+
+.writingTitle {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.writingDesc {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.applyButton {
+    border: none;
+    background-color: white;
+    font-size: cadetblue;
+    padding: 4px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    position: absolute;
+
+    bottom: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.preHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 48px;
+    color: white;
+    background-color: cadetblue;
+}
+
+.headerIcon {
+    width: 14px;
+    height: 14px;
+}
+
+.leftPreHeaderContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.leftPreHeaderItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px;
+    background-color: aliceblue;
+}
+
+.headerTitle {
+    font-size: 32px;
+    letter-spacing: 0.6;
+    text-transform: uppercase;
+}
+
+.headerElems {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.headerElems > div {
+    color: rgb(79, 79, 79);
+}
+
+.headerElems > div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.writingLink {
+    cursor: default;
+    pointer-events: none;
+}
+
+.takeDateToClinic {
+    pointer-events: none;
+    opacity: 0.3;
+
+    background-color: cadetblue;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: cadetblue;
+    padding: 48px;
+    padding-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.links {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 1px;
+} 
+
+.linksList {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.9px;
+}
+
+.link > span {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.rightIcons {
+    display: flex;
+    gap: 16px;
+}
+
+.rightIcons > img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.headerIcons {
+    display: flex;
+    gap: 12px;
+}
+
+.headerIcons > img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.error {
+    border: 2px solid red;
+}

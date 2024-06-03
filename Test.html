@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест и Авторизация</title>
+    <link href="./styles/test.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="preHeader" id="vverhstroch">
+            <div class="leftPreHeaderContent">
+                <div class="leftPreHeaderItem">
+                    <img class="headerIcon" src="./img/icons/sms.png" />
+                    <span>FBI1337@yandex.ru</span>
+                </div>
+                <div class="leftPreHeaderItem">
+                    <img class="headerIcon" src="./img/icons/phone.png">
+                    <span>+7-911-799-08-81</span>
+                </div>
+            </div>
+            <div class="headerIcons">
+                <img src="./img/icons/email.png" alt="">
+                <img src="./img/icons/phone.png" alt="">
+                <img src="./img/icons/skype.png" alt="">
+            </div>
+        </div>
+        <div class="header" id="headerContent">
+            <div class="headerTitle">
+                Slavik
+            </div>
+            <div class="headerElems">
+                <a href="./Home.html">
+                    <div>
+                        Главная
+                    </div>
+                </a>
+                <div id="aboutUs">
+                    О Нас
+                </div>
+                <a href="./Test.html">
+                    <div>
+                        Услуги
+                    </div>
+                </a>
+                <div id="durations">
+                    Направления
+                </div>
+                <div id="doctors">
+                    Врачи
+                </div>
+                <div id="more">
+                    Подробнее
+                </div>
+                <a href="./Writing.html">
+                    <div class="takeDateToClinic">
+                        Записаться на прием
+                    </div>  
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Тест с вопросами</h2>
+
+        <div class="question">
+            <p>1. Какие из следующих языков вы знаете?</p>
+            <label>
+                <input type="checkbox" name="languages" value="javascript">
+                JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="python">
+                Python
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="java">
+                Java
+            </label>
+            <label>
+                <input type="checkbox" name="languages" value="csharp">
+                C#
+            </label>
+        </div>
+
+        <div class="question">
+            <p>2. Какой ваш любимый цвет?</p>
+            <label>
+                <input type="radio" name="favoriteColor" value="red">
+                Красный
+            </label>
+            <label>
+                <input type="radio" name="favoriteColor" value="blue">
+                Синий
+            </label>
+            <label>
+                <input type="radio" name="favoriteColor" value="green">
+                Зеленый
+            </label>
+            <label>
+                <input type="radio" name="favoriteColor" value="yellow">
+                Желтый
+            </label>
+        </div>
+
+        <div class="question">
+            <p>3. Какой ваш любимый вид спорта?</p>
+            <select name="favoriteSport" id="favoriteSport">
+                <option value="football">Футбол</option>
+                <option value="basketball">Баскетбол</option>
+                <option value="tennis">Теннис</option>
+                <option value="swimming">Плавание</option>
+            </select>
+        </div>
+
+        <button id="testForm">Отправить</button>
+
+        <textarea class="results" id="results" rows="5" readonly></textarea>
+    </div>
+
+    <footer id="footer"> 
+        <div>
+            <div class="links">
+                Links
+            </div>
+            <div class="linksList">
+                <div class="link">
+                    1. <span>Link 1</span>
+                </div>
+                <div class="link">
+                    2. <span>Link 2</span>
+                </div>
+                <div class="link">
+                    3. <span>Link 3</span>
+                </div>
+                <div class="link">
+                    4. <span>Link 4</span>
+                </div>
+            </div>
+        </div>
+        <div class="rightIcons">
+            <img src="./img/icons/email.png" alt="">
+            <img src="./img/icons/phone.png" alt="">
+            <img src="./img/icons/skype.png" alt="">
+        </div>
+    </footer>
+
+    <script src="./js/test.js"></script>
+</body>
+</html>
